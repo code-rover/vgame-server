@@ -1,0 +1,6 @@
+[INFO] 2016-03-17 17:48:17 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-17 17:49:41 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-17 17:49:46 [watchdog] [./../loginserver/watchdog.lua:63] new client from: 192.168.1.147:25146
+[INFO] 2016-03-17 17:49:49 [watchdog] [./../loginserver/watchdog.lua:96] socket data  fd:4,msgno:10001
+[INFO] 2016-03-17 17:49:49 [watchdog] [./../loginserver/watchdog.lua:33] loginAuth  account:fgd password:123
+[INFO] 2016-03-17 17:49:49 [watchdog] [./../loginserver/watchdog.lua:104] auth success

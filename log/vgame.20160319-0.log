@@ -1,0 +1,563 @@
+[INFO] 2016-03-19 09:53:00 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-19 09:56:34 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-19 09:56:46 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:3761
+[INFO] 2016-03-19 09:56:53 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:4,msgno:10001
+[INFO] 2016-03-19 09:56:53 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:122
+[INFO] 2016-03-19 09:56:54 [watchdog] [./../loginserver/watchdog.lua:122] auth failed
+[INFO] 2016-03-19 09:56:59 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:4,msgno:10001
+[INFO] 2016-03-19 09:56:59 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 09:56:59 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 09:56:59 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 09:56:59 [agent] [./../loginserver/agent.lua:51] agent start  fd:4
+[ERROR] 2016-03-19 09:57:47 [watchdog] [./../loginserver/watchdog.lua:85] socket error 4 Connection reset by peer
+[INFO] 2016-03-19 09:57:47 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:4
+[INFO] 2016-03-19 09:58:44 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:3878
+[INFO] 2016-03-19 09:58:49 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:5,msgno:10001
+[INFO] 2016-03-19 09:58:49 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 09:58:49 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 09:58:49 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 09:58:49 [agent] [./../loginserver/agent.lua:51] agent start  fd:5
+[INFO] 2016-03-19 09:59:01 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:3901
+[INFO] 2016-03-19 09:59:06 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:6,msgno:10001
+[INFO] 2016-03-19 09:59:06 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 09:59:06 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 09:59:06 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:5
+[INFO] 2016-03-19 09:59:06 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 09:59:06 [agent] [./../loginserver/agent.lua:51] agent start  fd:6
+[ERROR] 2016-03-19 10:00:09 [watchdog] [./../loginserver/watchdog.lua:85] socket error 6 Connection reset by peer
+[INFO] 2016-03-19 10:00:09 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:6
+[ERROR] 2016-03-19 10:00:13 [watchdog] [./../loginserver/watchdog.lua:85] socket error 5 Connection reset by peer
+[INFO] 2016-03-19 10:00:32 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:3964
+[INFO] 2016-03-19 10:00:41 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:3969
+[INFO] 2016-03-19 10:00:45 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:7,msgno:10001
+[INFO] 2016-03-19 10:00:45 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:00:45 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:00:45 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:00:45 [agent] [./../loginserver/agent.lua:51] agent start  fd:7
+[INFO] 2016-03-19 10:00:51 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:8,msgno:10001
+[INFO] 2016-03-19 10:00:51 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:00:51 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:00:51 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:7
+[INFO] 2016-03-19 10:00:51 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:00:51 [agent] [./../loginserver/agent.lua:51] agent start  fd:8
+[ERROR] 2016-03-19 10:01:07 [watchdog] [./../loginserver/watchdog.lua:85] socket error 7 Connection reset by peer
+[INFO] 2016-03-19 10:01:18 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:3991
+[INFO] 2016-03-19 10:01:22 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:9,msgno:10001
+[INFO] 2016-03-19 10:01:22 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:01:22 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:01:22 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:8
+[INFO] 2016-03-19 10:01:22 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:01:22 [agent] [./../loginserver/agent.lua:51] agent start  fd:9
+[ERROR] 2016-03-19 10:01:30 [watchdog] [./../loginserver/watchdog.lua:85] socket error 8 Connection reset by peer
+[INFO] 2016-03-19 10:01:40 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:4004
+[INFO] 2016-03-19 10:01:45 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:10,msgno:10001
+[INFO] 2016-03-19 10:01:45 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:01:45 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:01:45 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:9
+[INFO] 2016-03-19 10:01:45 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:01:45 [agent] [./../loginserver/agent.lua:51] agent start  fd:10
+[ERROR] 2016-03-19 10:01:57 [watchdog] [./../loginserver/watchdog.lua:85] socket error 9 Connection reset by peer
+[ERROR] 2016-03-19 10:01:58 [watchdog] [./../loginserver/watchdog.lua:85] socket error 10 Connection reset by peer
+[INFO] 2016-03-19 10:01:58 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:10
+[INFO] 2016-03-19 10:04:39 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:4119
+[INFO] 2016-03-19 10:04:43 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:11,msgno:10001
+[INFO] 2016-03-19 10:04:43 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:04:43 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:04:43 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:04:43 [agent] [./../loginserver/agent.lua:51] agent start  fd:11
+[ERROR] 2016-03-19 10:04:49 [watchdog] [./../loginserver/watchdog.lua:85] socket error 11 Connection reset by peer
+[INFO] 2016-03-19 10:04:49 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:11
+[INFO] 2016-03-19 10:08:45 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:4302
+[INFO] 2016-03-19 10:08:50 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:12,msgno:10001
+[INFO] 2016-03-19 10:08:50 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:08:50 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:08:50 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:08:50 [agent] [./../loginserver/agent.lua:51] agent start  fd:12
+[INFO] 2016-03-19 10:09:29 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:4334
+[INFO] 2016-03-19 10:09:33 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:13,msgno:10001
+[INFO] 2016-03-19 10:09:33 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:09:33 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:09:33 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:12
+[INFO] 2016-03-19 10:09:33 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:09:33 [agent] [./../loginserver/agent.lua:51] agent start  fd:13
+[ERROR] 2016-03-19 10:16:51 [watchdog] [./../loginserver/watchdog.lua:85] socket error 12 Connection reset by peer
+[INFO] 2016-03-19 10:16:55 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:5169
+[INFO] 2016-03-19 10:17:00 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:14,msgno:10001
+[INFO] 2016-03-19 10:17:00 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:17:00 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:17:00 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:13
+[INFO] 2016-03-19 10:17:00 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:17:00 [agent] [./../loginserver/agent.lua:51] agent start  fd:14
+[ERROR] 2016-03-19 10:17:11 [watchdog] [./../loginserver/watchdog.lua:85] socket error 13 Connection reset by peer
+[INFO] 2016-03-19 10:17:23 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:5194
+[INFO] 2016-03-19 10:17:30 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:15,msgno:10001
+[INFO] 2016-03-19 10:17:30 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:17:30 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:17:30 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:14
+[INFO] 2016-03-19 10:17:30 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:17:30 [agent] [./../loginserver/agent.lua:51] agent start  fd:15
+[ERROR] 2016-03-19 10:20:26 [watchdog] [./../loginserver/watchdog.lua:85] socket error 14 Connection reset by peer
+[ERROR] 2016-03-19 10:20:27 [watchdog] [./../loginserver/watchdog.lua:85] socket error 15 Connection reset by peer
+[INFO] 2016-03-19 10:20:27 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:15
+[INFO] 2016-03-19 10:20:30 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:5337
+[INFO] 2016-03-19 10:20:35 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:16,msgno:10001
+[INFO] 2016-03-19 10:20:35 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:20:35 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:20:35 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:20:35 [agent] [./../loginserver/agent.lua:51] agent start  fd:16
+[INFO] 2016-03-19 10:20:55 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:5360
+[INFO] 2016-03-19 10:20:59 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:17,msgno:10001
+[INFO] 2016-03-19 10:20:59 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:20:59 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:20:59 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:16
+[INFO] 2016-03-19 10:20:59 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:20:59 [agent] [./../loginserver/agent.lua:51] agent start  fd:17
+[ERROR] 2016-03-19 10:25:52 [watchdog] [./../loginserver/watchdog.lua:85] socket error 17 Connection reset by peer
+[INFO] 2016-03-19 10:25:52 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:17
+[ERROR] 2016-03-19 10:25:55 [watchdog] [./../loginserver/watchdog.lua:85] socket error 16 Connection reset by peer
+[INFO] 2016-03-19 10:26:05 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:5763
+[INFO] 2016-03-19 10:26:09 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:18,msgno:10001
+[INFO] 2016-03-19 10:26:09 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:26:09 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:26:09 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:26:09 [agent] [./../loginserver/agent.lua:51] agent start  fd:18
+[INFO] 2016-03-19 10:26:25 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:5776
+[INFO] 2016-03-19 10:26:33 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:19,msgno:10001
+[INFO] 2016-03-19 10:26:33 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:26:33 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:26:33 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:18
+[INFO] 2016-03-19 10:26:33 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:26:33 [agent] [./../loginserver/agent.lua:51] agent start  fd:19
+[ERROR] 2016-03-19 10:27:17 [watchdog] [./../loginserver/watchdog.lua:85] socket error 18 Connection reset by peer
+[ERROR] 2016-03-19 10:27:19 [watchdog] [./../loginserver/watchdog.lua:85] socket error 19 Connection reset by peer
+[INFO] 2016-03-19 10:27:19 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:19
+[INFO] 2016-03-19 10:27:22 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:5809
+[INFO] 2016-03-19 10:27:32 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:20,msgno:10001
+[INFO] 2016-03-19 10:27:32 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:27:32 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:27:32 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:27:32 [agent] [./../loginserver/agent.lua:51] agent start  fd:20
+[INFO] 2016-03-19 10:28:00 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:5830
+[INFO] 2016-03-19 10:28:05 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:21,msgno:10001
+[INFO] 2016-03-19 10:28:05 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:28:05 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:28:05 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:20
+[INFO] 2016-03-19 10:28:05 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:28:05 [agent] [./../loginserver/agent.lua:51] agent start  fd:21
+[ERROR] 2016-03-19 10:28:22 [watchdog] [./../loginserver/watchdog.lua:85] socket error 21 Connection reset by peer
+[INFO] 2016-03-19 10:28:22 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:21
+[ERROR] 2016-03-19 10:31:00 [watchdog] [./../loginserver/watchdog.lua:85] socket error 20 Connection reset by peer
+[INFO] 2016-03-19 10:31:06 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:5955
+[INFO] 2016-03-19 10:31:10 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:22,msgno:10001
+[INFO] 2016-03-19 10:31:10 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:31:10 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:31:10 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:31:10 [agent] [./../loginserver/agent.lua:51] agent start  fd:22
+[INFO] 2016-03-19 10:31:24 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:5971
+[INFO] 2016-03-19 10:31:28 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:23,msgno:10001
+[INFO] 2016-03-19 10:31:28 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:31:28 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:31:28 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:22
+[INFO] 2016-03-19 10:31:28 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:31:28 [agent] [./../loginserver/agent.lua:51] agent start  fd:23
+[ERROR] 2016-03-19 10:36:17 [watchdog] [./../loginserver/watchdog.lua:85] socket error 23 Connection reset by peer
+[INFO] 2016-03-19 10:36:17 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:23
+[ERROR] 2016-03-19 10:36:42 [watchdog] [./../loginserver/watchdog.lua:85] socket error 22 Connection reset by peer
+[INFO] 2016-03-19 10:37:53 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:6429
+[ERROR] 2016-03-19 10:37:54 [watchdog] [./../loginserver/watchdog.lua:85] socket error 24 Connection reset by peer
+[INFO] 2016-03-19 10:39:17 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-19 10:39:23 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:6511
+[INFO] 2016-03-19 10:39:26 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:4,msgno:10001
+[INFO] 2016-03-19 10:39:26 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:39:26 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:39:26 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:39:26 [agent] [./../loginserver/agent.lua:51] agent start  fd:4
+[INFO] 2016-03-19 10:39:46 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:6526
+[INFO] 2016-03-19 10:39:50 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:5,msgno:10001
+[INFO] 2016-03-19 10:39:50 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:39:50 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:39:50 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:4
+[INFO] 2016-03-19 10:39:50 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:39:50 [agent] [./../loginserver/agent.lua:51] agent start  fd:5
+[ERROR] 2016-03-19 10:51:20 [watchdog] [./../loginserver/watchdog.lua:85] socket error 5 Connection reset by peer
+[INFO] 2016-03-19 10:51:20 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:5
+[ERROR] 2016-03-19 10:51:24 [watchdog] [./../loginserver/watchdog.lua:85] socket error 4 Connection reset by peer
+[INFO] 2016-03-19 10:51:28 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:7072
+[INFO] 2016-03-19 10:51:32 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:6,msgno:10001
+[INFO] 2016-03-19 10:51:32 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:51:32 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:51:32 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:51:32 [agent] [./../loginserver/agent.lua:51] agent start  fd:6
+[INFO] 2016-03-19 10:51:48 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:7086
+[INFO] 2016-03-19 10:51:52 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:7,msgno:10001
+[INFO] 2016-03-19 10:51:52 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:51:52 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:51:52 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:6
+[INFO] 2016-03-19 10:51:52 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:51:52 [agent] [./../loginserver/agent.lua:51] agent start  fd:7
+[ERROR] 2016-03-19 10:53:05 [watchdog] [./../loginserver/watchdog.lua:85] socket error 6 Connection reset by peer
+[INFO] 2016-03-19 10:53:08 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:7141
+[ERROR] 2016-03-19 10:53:09 [watchdog] [./../loginserver/watchdog.lua:85] socket error 7 Connection reset by peer
+[INFO] 2016-03-19 10:53:09 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:7
+[INFO] 2016-03-19 10:53:23 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:8,msgno:10001
+[INFO] 2016-03-19 10:53:23 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:53:23 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:53:23 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:53:23 [agent] [./../loginserver/agent.lua:51] agent start  fd:8
+[ERROR] 2016-03-19 10:53:30 [watchdog] [./../loginserver/watchdog.lua:85] socket error 8 Connection reset by peer
+[INFO] 2016-03-19 10:53:30 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:8
+[INFO] 2016-03-19 10:53:32 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:7167
+[INFO] 2016-03-19 10:53:37 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:9,msgno:10001
+[INFO] 2016-03-19 10:53:37 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:53:37 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:53:37 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:53:37 [agent] [./../loginserver/agent.lua:51] agent start  fd:9
+[INFO] 2016-03-19 10:53:56 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:7182
+[INFO] 2016-03-19 10:54:00 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:10,msgno:10001
+[INFO] 2016-03-19 10:54:00 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 10:54:00 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 10:54:00 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:9
+[INFO] 2016-03-19 10:54:00 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 10:54:00 [agent] [./../loginserver/agent.lua:51] agent start  fd:10
+[ERROR] 2016-03-19 11:04:10 [watchdog] [./../loginserver/watchdog.lua:85] socket error 10 Connection reset by peer
+[INFO] 2016-03-19 11:04:10 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:10
+[ERROR] 2016-03-19 11:04:14 [watchdog] [./../loginserver/watchdog.lua:85] socket error 9 Connection reset by peer
+[INFO] 2016-03-19 11:04:16 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:7932
+[INFO] 2016-03-19 11:04:20 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:11,msgno:10001
+[INFO] 2016-03-19 11:04:20 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:04:20 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:04:20 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:04:20 [agent] [./../loginserver/agent.lua:51] agent start  fd:11
+[INFO] 2016-03-19 11:04:38 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:7947
+[INFO] 2016-03-19 11:04:43 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:12,msgno:10001
+[INFO] 2016-03-19 11:04:43 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:04:43 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:04:43 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:11
+[INFO] 2016-03-19 11:04:43 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:04:43 [agent] [./../loginserver/agent.lua:51] agent start  fd:12
+[ERROR] 2016-03-19 11:04:46 [watchdog] [./../loginserver/watchdog.lua:85] socket error 12 Connection reset by peer
+[INFO] 2016-03-19 11:04:46 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:12
+[ERROR] 2016-03-19 11:05:06 [watchdog] [./../loginserver/watchdog.lua:85] socket error 11 Connection reset by peer
+[INFO] 2016-03-19 11:06:10 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:8015
+[INFO] 2016-03-19 11:06:15 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:13,msgno:10001
+[INFO] 2016-03-19 11:06:15 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:06:15 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:06:15 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:06:15 [agent] [./../loginserver/agent.lua:51] agent start  fd:13
+[ERROR] 2016-03-19 11:06:17 [watchdog] [./../loginserver/watchdog.lua:85] socket error 13 Connection reset by peer
+[INFO] 2016-03-19 11:06:17 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:13
+[INFO] 2016-03-19 11:07:08 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:8058
+[INFO] 2016-03-19 11:07:12 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:14,msgno:10001
+[INFO] 2016-03-19 11:07:12 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:07:12 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:07:12 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:07:12 [agent] [./../loginserver/agent.lua:51] agent start  fd:14
+[INFO] 2016-03-19 11:07:26 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:8073
+[INFO] 2016-03-19 11:07:29 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:15,msgno:10001
+[INFO] 2016-03-19 11:07:29 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:07:29 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:07:29 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:14
+[INFO] 2016-03-19 11:07:29 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:07:29 [agent] [./../loginserver/agent.lua:51] agent start  fd:15
+[ERROR] 2016-03-19 11:07:38 [watchdog] [./../loginserver/watchdog.lua:85] socket error 15 Connection reset by peer
+[INFO] 2016-03-19 11:07:38 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:15
+[ERROR] 2016-03-19 11:29:08 [watchdog] [./../loginserver/watchdog.lua:85] socket error 14 Connection reset by peer
+[INFO] 2016-03-19 11:29:13 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:9253
+[INFO] 2016-03-19 11:29:17 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:16,msgno:10001
+[INFO] 2016-03-19 11:29:17 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:29:17 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:29:17 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:29:17 [agent] [./../loginserver/agent.lua:51] agent start  fd:16
+[INFO] 2016-03-19 11:29:29 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:9275
+[INFO] 2016-03-19 11:29:34 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:17,msgno:10001
+[INFO] 2016-03-19 11:29:34 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:29:34 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:29:34 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:16
+[INFO] 2016-03-19 11:29:34 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:29:34 [agent] [./../loginserver/agent.lua:51] agent start  fd:17
+[ERROR] 2016-03-19 11:29:37 [watchdog] [./../loginserver/watchdog.lua:85] socket error 17 Connection reset by peer
+[INFO] 2016-03-19 11:29:37 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:17
+[ERROR] 2016-03-19 11:29:37 [watchdog] [./../loginserver/watchdog.lua:85] socket error 16 Connection reset by peer
+[INFO] 2016-03-19 11:30:18 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:9314
+[INFO] 2016-03-19 11:30:21 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:18,msgno:10001
+[INFO] 2016-03-19 11:30:21 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:30:21 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:30:21 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:30:21 [agent] [./../loginserver/agent.lua:51] agent start  fd:18
+[ERROR] 2016-03-19 11:30:53 [watchdog] [./../loginserver/watchdog.lua:85] socket error 18 Connection reset by peer
+[INFO] 2016-03-19 11:30:53 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:18
+[INFO] 2016-03-19 11:32:16 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:9386
+[INFO] 2016-03-19 11:32:20 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:19,msgno:10001
+[INFO] 2016-03-19 11:32:20 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:32:20 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:32:20 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:32:20 [agent] [./../loginserver/agent.lua:51] agent start  fd:19
+[INFO] 2016-03-19 11:32:37 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:9401
+[INFO] 2016-03-19 11:32:41 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:20,msgno:10001
+[INFO] 2016-03-19 11:32:41 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:32:41 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:32:41 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:19
+[INFO] 2016-03-19 11:32:41 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:32:41 [agent] [./../loginserver/agent.lua:51] agent start  fd:20
+[INFO] 2016-03-19 11:47:51 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-19 11:48:32 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:10211
+[INFO] 2016-03-19 11:48:37 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:4,msgno:10001
+[INFO] 2016-03-19 11:48:37 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:48:37 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:48:37 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:48:37 [agent] [./../loginserver/agent.lua:51] agent start  fd:4
+[INFO] 2016-03-19 11:55:15 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-19 11:55:31 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:10581
+[INFO] 2016-03-19 11:55:36 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:4,msgno:10001
+[INFO] 2016-03-19 11:55:36 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:55:36 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:55:36 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:55:36 [agent] [./../loginserver/agent.lua:51] agent start  fd:4
+[INFO] 2016-03-19 11:55:57 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-19 11:56:02 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:10600
+[INFO] 2016-03-19 11:56:06 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:4,msgno:10001
+[INFO] 2016-03-19 11:56:06 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:56:06 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:56:06 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:56:06 [agent] [./../loginserver/agent.lua:51] agent start  fd:4
+[INFO] 2016-03-19 11:56:35 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:10619
+[INFO] 2016-03-19 11:56:44 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:5,msgno:10001
+[INFO] 2016-03-19 11:56:44 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 11:56:44 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 11:56:44 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:4
+[INFO] 2016-03-19 11:56:44 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 11:56:44 [agent] [./../loginserver/agent.lua:51] agent start  fd:5
+[INFO] 2016-03-19 12:24:04 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-19 12:24:08 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:11863
+[INFO] 2016-03-19 12:24:13 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:4,msgno:10001
+[INFO] 2016-03-19 12:24:13 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 12:24:13 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 12:24:13 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 12:24:13 [agent] [./../loginserver/agent.lua:51] agent start  fd:4
+[INFO] 2016-03-19 13:14:26 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-19 13:14:56 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:13983
+[INFO] 2016-03-19 13:15:16 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:4,msgno:10001
+[INFO] 2016-03-19 13:15:16 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 13:15:16 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 13:15:16 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 13:15:16 [agent] [./../loginserver/agent.lua:51] agent start  fd:4
+[INFO] 2016-03-19 13:15:35 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:14009
+[INFO] 2016-03-19 13:15:50 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:5,msgno:10001
+[INFO] 2016-03-19 13:15:50 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 13:15:50 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 13:15:50 [agent] [./../loginserver/agent.lua:61] client disconnect  fd:4
+[INFO] 2016-03-19 13:15:50 [agent] [./../loginserver/agent.lua:70] create agent
+[INFO] 2016-03-19 13:15:50 [agent] [./../loginserver/agent.lua:51] agent start  fd:5
+[ERROR] 2016-03-19 13:16:30 [watchdog] [./../loginserver/watchdog.lua:85] socket error 4 Connection reset by peer
+[INFO] 2016-03-19 13:26:10 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-19 13:26:18 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:14578
+[INFO] 2016-03-19 13:26:23 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:4,msgno:10001
+[INFO] 2016-03-19 13:26:23 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 13:26:23 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 13:26:23 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 13:26:23 [agent] [./../loginserver/agent.lua:53] agent start  fd:4
+[INFO] 2016-03-19 13:26:37 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:14599
+[INFO] 2016-03-19 13:26:41 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:5,msgno:10001
+[INFO] 2016-03-19 13:26:41 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 13:26:41 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 13:26:41 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:4
+[INFO] 2016-03-19 13:26:41 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 13:26:41 [agent] [./../loginserver/agent.lua:53] agent start  fd:5
+[INFO] 2016-03-19 13:26:41 [watchdog] [./../loginserver/watchdog.lua:79] socket close: fd
+[ERROR] 2016-03-19 13:27:11 [watchdog] [./../loginserver/watchdog.lua:85] socket error 5 Connection reset by peer
+[INFO] 2016-03-19 13:27:11 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:5
+[INFO] 2016-03-19 13:28:01 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:14643
+[INFO] 2016-03-19 13:28:21 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:14654
+[ERROR] 2016-03-19 13:28:43 [watchdog] [./../loginserver/watchdog.lua:85] socket error 7 Connection reset by peer
+[ERROR] 2016-03-19 13:28:49 [watchdog] [./../loginserver/watchdog.lua:85] socket error 6 Connection reset by peer
+[INFO] 2016-03-19 13:28:55 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:14698
+[INFO] 2016-03-19 13:28:58 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:8,msgno:10001
+[INFO] 2016-03-19 13:28:58 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 13:28:58 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 13:28:58 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 13:28:58 [agent] [./../loginserver/agent.lua:53] agent start  fd:8
+[INFO] 2016-03-19 13:29:19 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:14713
+[INFO] 2016-03-19 13:29:38 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:9,msgno:10001
+[INFO] 2016-03-19 13:29:38 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 13:29:38 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 13:29:38 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:8
+[INFO] 2016-03-19 13:29:38 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 13:29:38 [agent] [./../loginserver/agent.lua:53] agent start  fd:9
+[INFO] 2016-03-19 13:29:38 [watchdog] [./../loginserver/watchdog.lua:79] socket close: fd
+[ERROR] 2016-03-19 14:02:10 [watchdog] [./../loginserver/watchdog.lua:85] socket error 9 Connection reset by peer
+[INFO] 2016-03-19 14:02:10 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:9
+[INFO] 2016-03-19 14:30:32 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:18420
+[INFO] 2016-03-19 14:33:55 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:10,msgno:10001
+[INFO] 2016-03-19 14:33:55 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:33:55 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:33:55 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:33:55 [agent] [./../loginserver/agent.lua:53] agent start  fd:10
+[INFO] 2016-03-19 14:34:20 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:18580
+[INFO] 2016-03-19 14:34:50 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:11,msgno:10001
+[INFO] 2016-03-19 14:34:50 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:34:50 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:34:50 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:10
+[INFO] 2016-03-19 14:34:50 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:34:50 [agent] [./../loginserver/agent.lua:53] agent start  fd:11
+[INFO] 2016-03-19 14:34:50 [watchdog] [./../loginserver/watchdog.lua:79] socket close: fd
+[ERROR] 2016-03-19 14:39:13 [watchdog] [./../loginserver/watchdog.lua:85] socket error 11 Connection reset by peer
+[INFO] 2016-03-19 14:39:13 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:11
+[INFO] 2016-03-19 14:44:10 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:18990
+[INFO] 2016-03-19 14:44:14 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:12,msgno:10001
+[INFO] 2016-03-19 14:44:14 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:44:14 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:44:14 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:44:14 [agent] [./../loginserver/agent.lua:53] agent start  fd:12
+[ERROR] 2016-03-19 14:44:20 [watchdog] [./../loginserver/watchdog.lua:85] socket error 12 Connection reset by peer
+[INFO] 2016-03-19 14:44:20 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:12
+[INFO] 2016-03-19 14:44:30 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:19002
+[INFO] 2016-03-19 14:44:36 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:13,msgno:10001
+[INFO] 2016-03-19 14:44:36 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:44:36 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:44:36 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:44:36 [agent] [./../loginserver/agent.lua:53] agent start  fd:13
+[INFO] 2016-03-19 14:44:49 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:19019
+[INFO] 2016-03-19 14:45:18 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:14,msgno:10001
+[INFO] 2016-03-19 14:45:18 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:45:18 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:45:18 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:13
+[INFO] 2016-03-19 14:45:18 [watchdog] [./../loginserver/watchdog.lua:79] socket close: fd
+[INFO] 2016-03-19 14:45:18 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:45:18 [agent] [./../loginserver/agent.lua:53] agent start  fd:14
+[INFO] 2016-03-19 14:45:31 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:19061
+[INFO] 2016-03-19 14:45:51 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:19101
+[INFO] 2016-03-19 14:46:30 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:19142
+[INFO] 2016-03-19 14:46:34 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:17,msgno:10001
+[INFO] 2016-03-19 14:46:34 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:46:34 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:46:34 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:14
+[INFO] 2016-03-19 14:46:34 [watchdog] [./../loginserver/watchdog.lua:79] socket close: fd
+[INFO] 2016-03-19 14:46:34 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:46:34 [agent] [./../loginserver/agent.lua:53] agent start  fd:17
+[INFO] 2016-03-19 14:46:48 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:15,msgno:10001
+[INFO] 2016-03-19 14:46:48 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:46:48 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:46:48 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:17
+[INFO] 2016-03-19 14:46:48 [watchdog] [./../loginserver/watchdog.lua:79] socket close: fd
+[INFO] 2016-03-19 14:46:48 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:46:48 [agent] [./../loginserver/agent.lua:53] agent start  fd:15
+[INFO] 2016-03-19 14:47:01 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:16,msgno:10001
+[INFO] 2016-03-19 14:47:01 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:47:01 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:47:01 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:15
+[INFO] 2016-03-19 14:47:01 [watchdog] [./../loginserver/watchdog.lua:79] socket close: fd
+[INFO] 2016-03-19 14:47:01 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:47:01 [agent] [./../loginserver/agent.lua:53] agent start  fd:16
+[ERROR] 2016-03-19 14:47:36 [watchdog] [./../loginserver/watchdog.lua:85] socket error 16 Connection reset by peer
+[INFO] 2016-03-19 14:47:36 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:16
+[INFO] 2016-03-19 14:48:37 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:19230
+[INFO] 2016-03-19 14:48:41 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:18,msgno:10001
+[INFO] 2016-03-19 14:48:41 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:48:41 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:48:41 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:48:41 [agent] [./../loginserver/agent.lua:53] agent start  fd:18
+[INFO] 2016-03-19 14:48:59 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:19247
+[INFO] 2016-03-19 14:49:07 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:19,msgno:10001
+[INFO] 2016-03-19 14:49:07 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:49:07 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:49:07 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:18
+[INFO] 2016-03-19 14:49:07 [watchdog] [./../loginserver/watchdog.lua:79] socket close: fd
+[INFO] 2016-03-19 14:49:07 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:49:07 [agent] [./../loginserver/agent.lua:53] agent start  fd:19
+[ERROR] 2016-03-19 14:55:01 [watchdog] [./../loginserver/watchdog.lua:85] socket error 19 Connection reset by peer
+[INFO] 2016-03-19 14:55:01 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:19
+[INFO] 2016-03-19 14:55:52 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:19545
+[INFO] 2016-03-19 14:56:07 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:20,msgno:10001
+[INFO] 2016-03-19 14:56:07 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:56:07 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:56:07 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:56:07 [agent] [./../loginserver/agent.lua:53] agent start  fd:20
+[INFO] 2016-03-19 14:56:27 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:19568
+[INFO] 2016-03-19 14:56:35 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:21,msgno:10001
+[INFO] 2016-03-19 14:56:35 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 14:56:35 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 14:56:35 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:20
+[INFO] 2016-03-19 14:56:35 [watchdog] [./../loginserver/watchdog.lua:79] socket close: fd
+[INFO] 2016-03-19 14:56:35 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 14:56:35 [agent] [./../loginserver/agent.lua:53] agent start  fd:21
+[ERROR] 2016-03-19 15:01:40 [watchdog] [./../loginserver/watchdog.lua:85] socket error 21 Connection reset by peer
+[INFO] 2016-03-19 15:01:40 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:21
+[INFO] 2016-03-19 15:02:35 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:19838
+[INFO] 2016-03-19 15:02:40 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:22,msgno:10001
+[INFO] 2016-03-19 15:02:40 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 15:02:40 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 15:02:40 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 15:02:40 [agent] [./../loginserver/agent.lua:53] agent start  fd:22
+[ERROR] 2016-03-19 15:06:00 [watchdog] [./../loginserver/watchdog.lua:85] socket error 22 Connection reset by peer
+[INFO] 2016-03-19 15:06:00 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:22
+[INFO] 2016-03-19 15:53:00 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:23196
+[INFO] 2016-03-19 15:53:09 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:23,msgno:10001
+[INFO] 2016-03-19 15:53:09 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 15:53:09 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 15:53:09 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 15:53:09 [agent] [./../loginserver/agent.lua:53] agent start  fd:23
+[ERROR] 2016-03-19 15:59:27 [watchdog] [./../loginserver/watchdog.lua:85] socket error 23 Connection reset by peer
+[INFO] 2016-03-19 15:59:27 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:23
+[INFO] 2016-03-19 15:59:30 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:23548
+[INFO] 2016-03-19 15:59:34 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:24,msgno:10001
+[INFO] 2016-03-19 15:59:34 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 15:59:34 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 15:59:34 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 15:59:34 [agent] [./../loginserver/agent.lua:53] agent start  fd:24
+[ERROR] 2016-03-19 16:22:16 [watchdog] [./../loginserver/watchdog.lua:85] socket error 24 Connection reset by peer
+[INFO] 2016-03-19 16:22:16 [agent] [./../loginserver/agent.lua:63] client disconnect  fd:24
+[INFO] 2016-03-19 16:22:22 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:25085
+[INFO] 2016-03-19 16:22:26 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:25,msgno:10001
+[INFO] 2016-03-19 16:22:26 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 16:22:26 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 16:22:26 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 16:22:26 [agent] [./../loginserver/agent.lua:53] agent start  fd:25
+[INFO] 2016-03-19 16:46:23 [main] [./../loginserver/main.lua:13] ---------- server start -----------
+[INFO] 2016-03-19 16:46:27 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:26106
+[INFO] 2016-03-19 16:46:34 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:4,msgno:10001
+[INFO] 2016-03-19 16:46:34 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 16:46:34 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 16:46:34 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 16:46:34 [agent] [./../loginserver/agent.lua:53] agent start  fd:4
+[INFO] 2016-03-19 16:46:47 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:26119
+[INFO] 2016-03-19 16:46:52 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:5,msgno:10001
+[INFO] 2016-03-19 16:46:52 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 16:46:52 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 16:46:52 [agent] [./../loginserver/agent.lua:64] client disconnect  fd:4
+[INFO] 2016-03-19 16:46:52 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 16:46:52 [watchdog] [./../loginserver/watchdog.lua:79] socket close: 4
+[INFO] 2016-03-19 16:46:52 [agent] [./../loginserver/agent.lua:53] agent start  fd:5
+[ERROR] 2016-03-19 16:47:33 [watchdog] [./../loginserver/watchdog.lua:85] socket error 5 Connection reset by peer
+[INFO] 2016-03-19 16:47:33 [agent] [./../loginserver/agent.lua:64] client disconnect  fd:5
+[INFO] 2016-03-19 16:53:40 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:26448
+[INFO] 2016-03-19 16:53:44 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:6,msgno:10001
+[INFO] 2016-03-19 16:53:44 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 16:53:44 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 16:53:44 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 16:53:44 [agent] [./../loginserver/agent.lua:53] agent start  fd:6
+[INFO] 2016-03-19 16:53:56 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:26460
+[INFO] 2016-03-19 16:54:00 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:7,msgno:10001
+[INFO] 2016-03-19 16:54:00 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 16:54:00 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 16:54:00 [agent] [./../loginserver/agent.lua:64] client disconnect  fd:6
+[INFO] 2016-03-19 16:54:00 [watchdog] [./../loginserver/watchdog.lua:79] socket close: 6
+[INFO] 2016-03-19 16:54:00 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 16:54:00 [agent] [./../loginserver/agent.lua:53] agent start  fd:7
+[ERROR] 2016-03-19 16:54:15 [watchdog] [./../loginserver/watchdog.lua:85] socket error 7 Connection reset by peer
+[INFO] 2016-03-19 16:54:15 [agent] [./../loginserver/agent.lua:64] client disconnect  fd:7
+[INFO] 2016-03-19 17:14:31 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:27513
+[INFO] 2016-03-19 17:14:35 [watchdog] [./../loginserver/watchdog.lua:93] socket data  fd:8,msgno:10001
+[INFO] 2016-03-19 17:14:35 [watchdog] [./../loginserver/watchdog.lua:27] loginAuth  account:fgd password:123
+[INFO] 2016-03-19 17:14:35 [watchdog] [./../loginserver/watchdog.lua:117] auth success
+[INFO] 2016-03-19 17:14:35 [agent] [./../loginserver/agent.lua:74] create agent
+[INFO] 2016-03-19 17:14:35 [agent] [./../loginserver/agent.lua:53] agent start  fd:8
+[ERROR] 2016-03-19 17:15:03 [watchdog] [./../loginserver/watchdog.lua:85] socket error 8 Connection reset by peer
+[INFO] 2016-03-19 17:15:03 [agent] [./../loginserver/agent.lua:64] client disconnect  fd:8
+[INFO] 2016-03-19 17:15:06 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:27539
+[ERROR] 2016-03-19 17:15:30 [watchdog] [./../loginserver/watchdog.lua:85] socket error 9 Connection reset by peer
+[INFO] 2016-03-19 17:16:21 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:27665
+[ERROR] 2016-03-19 17:16:24 [watchdog] [./../loginserver/watchdog.lua:85] socket error 10 Connection reset by peer
+[INFO] 2016-03-19 17:16:27 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:27670
+[ERROR] 2016-03-19 17:16:29 [watchdog] [./../loginserver/watchdog.lua:85] socket error 11 Connection reset by peer
+[INFO] 2016-03-19 17:16:34 [watchdog] [./../loginserver/watchdog.lua:59] new client from: 192.168.1.147:27675
+[ERROR] 2016-03-19 17:16:36 [watchdog] [./../loginserver/watchdog.lua:85] socket error 12 Connection reset by peer
