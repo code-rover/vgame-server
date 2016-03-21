@@ -10,6 +10,8 @@ local host
 
 local CMD = {}
 local client_fd ={}
+local account = nil
+local gate
 
 local function send_response(package)
 	data = msgpack.unpack(package)
@@ -26,6 +28,10 @@ skynet.register_protocol {
 	dispatch = function(_, _, msg)
 		print("------------client dispatch------------")
 		data = msgpack.unpack(msg)
+
+		print("msgno = ",data.msgno);
+
+		--[[
 		module = math.floor(data.msgno / 100)
 		opcode = data.msgno % 100
 		print("msgno = ",data.msgno);
@@ -40,21 +46,38 @@ skynet.register_protocol {
 		else
 			print("server receive error msg")
 		end
+		]]
 	end
 }
 
-function CMD.start(gate, fd, proto)
+function CMD.start(_gate, fd, _account)
 	client_fd = fd
+	account = _account
+	gate = _gate
+
+	LOG_INFO("agent start  fd:"..client_fd)
+	skynet.error("agent start account: "..account)
+	skynet.call("usermgr", "lua", "enroll", account, skynet.self())
+
 	skynet.call(gate, "lua", "forward", fd)
+
 end
 
-function CMD.disconnect()
-	print("---a client disconnect")
+
+function CMD.disconnect(reason)
+	print("client disconnect " .. client_fd)
+	LOG_INFO("client disconnect  fd:"..client_fd)
+
+	skynet.call("usermgr", "lua", "remove", account)  
+
+	skynet.call(gate, "lua", "kick", client_fd)
 	skynet.exit()
 end
 
 skynet.start(function()
 	print("---start agent---")
+	LOG_INFO("create agent")
+
 	skynet.dispatch("lua", function(session, source, cmd, ...)
 		print("---agent cmd ", cmd)
 		local f = CMD[cmd]

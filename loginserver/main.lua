@@ -13,9 +13,11 @@ skynet.start(function()
 	LOG_INFO("---------- server start -----------")
 
 	skynet.newservice("debug_console", 8000)
-	skynet.newservice("dbservice")
-	skynet.newservice("loginservice")
-	skynet.newservice("roleservice")
+	skynet.uniqueservice("dbservice")
+	skynet.uniqueservice("loginservice")
+	--skynet.newservice("roleservice")
+	
+	skynet.uniqueservice("usermgr")
 
 	local watchdog = skynet.newservice("watchdog")
 	skynet.call(watchdog, "lua", "start", {
