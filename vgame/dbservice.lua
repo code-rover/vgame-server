@@ -35,10 +35,10 @@ skynet.start(function()
 		end)
 
 		db = mysql.connect {
-				host = "127.0.0.1",
+				host = "123.56.207.55",
 				port = 3306,
 				database = "vgame",
-				user = "root",
+				user = "vgame",
 				password = "fgd",
 				max_packet_size = 1024 * 1024
 		}
